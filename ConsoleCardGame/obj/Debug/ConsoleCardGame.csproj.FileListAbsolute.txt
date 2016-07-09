@@ -1,0 +1,8 @@
+C:\Users\Mario\Documents\Visual Studio 2015\Projects\CGCommon\ConsoleCardGame\bin\Debug\ConsoleCardGame.exe.config
+C:\Users\Mario\Documents\Visual Studio 2015\Projects\CGCommon\ConsoleCardGame\bin\Debug\ConsoleCardGame.exe
+C:\Users\Mario\Documents\Visual Studio 2015\Projects\CGCommon\ConsoleCardGame\bin\Debug\ConsoleCardGame.pdb
+C:\Users\Mario\Documents\Visual Studio 2015\Projects\CGCommon\ConsoleCardGame\bin\Debug\CGCommon.dll
+C:\Users\Mario\Documents\Visual Studio 2015\Projects\CGCommon\ConsoleCardGame\bin\Debug\CGCommon.pdb
+C:\Users\Mario\Documents\Visual Studio 2015\Projects\CGCommon\ConsoleCardGame\obj\Debug\ConsoleCardGame.csprojResolveAssemblyReference.cache
+C:\Users\Mario\Documents\Visual Studio 2015\Projects\CGCommon\ConsoleCardGame\obj\Debug\ConsoleCardGame.exe
+C:\Users\Mario\Documents\Visual Studio 2015\Projects\CGCommon\ConsoleCardGame\obj\Debug\ConsoleCardGame.pdb

@@ -1,0 +1,7 @@
+C:\Users\Mario\Documents\Visual Studio 2015\Projects\CGCommon\CGCommon\bin\Debug\CGCommon.dll
+C:\Users\Mario\Documents\Visual Studio 2015\Projects\CGCommon\CGCommon\bin\Debug\CGCommon.pdb
+C:\Users\Mario\Documents\Visual Studio 2015\Projects\CGCommon\CGCommon\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Mario\Documents\Visual Studio 2015\Projects\CGCommon\CGCommon\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Mario\Documents\Visual Studio 2015\Projects\CGCommon\CGCommon\obj\Debug\CGCommon.csprojResolveAssemblyReference.cache
+C:\Users\Mario\Documents\Visual Studio 2015\Projects\CGCommon\CGCommon\obj\Debug\CGCommon.dll
+C:\Users\Mario\Documents\Visual Studio 2015\Projects\CGCommon\CGCommon\obj\Debug\CGCommon.pdb

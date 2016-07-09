@@ -1,0 +1,8 @@
+C:\Users\Mario\Documents\Visual Studio 2015\Projects\CGCommon\CGUnitTests\bin\Debug\CGUnitTests.dll
+C:\Users\Mario\Documents\Visual Studio 2015\Projects\CGCommon\CGUnitTests\bin\Debug\CGUnitTests.pdb
+C:\Users\Mario\Documents\Visual Studio 2015\Projects\CGCommon\CGUnitTests\bin\Debug\CGCommon.dll
+C:\Users\Mario\Documents\Visual Studio 2015\Projects\CGCommon\CGUnitTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Mario\Documents\Visual Studio 2015\Projects\CGCommon\CGUnitTests\bin\Debug\CGCommon.pdb
+C:\Users\Mario\Documents\Visual Studio 2015\Projects\CGCommon\CGUnitTests\obj\Debug\CGUnitTests.csprojResolveAssemblyReference.cache
+C:\Users\Mario\Documents\Visual Studio 2015\Projects\CGCommon\CGUnitTests\obj\Debug\CGUnitTests.dll
+C:\Users\Mario\Documents\Visual Studio 2015\Projects\CGCommon\CGUnitTests\obj\Debug\CGUnitTests.pdb
