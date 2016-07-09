@@ -12,6 +12,5 @@ namespace CGCommon
     public class _5HandStud
     {
         // TODO::::::D
-        // here is a simple change which should be picked up on git. Nothing really happens. 
     }
 }
