@@ -1,4 +1,5 @@
-﻿using CGCommon;
+﻿using System;
+using CGCommon;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace CGUnitTests
@@ -17,7 +18,7 @@ namespace CGUnitTests
         [TestMethod]
         public void CreateDeck()
         {
-            var deck = new Deck52Standard();
+            var deck = new Deck();
             deck.PrintDeckContents();
         }
 
@@ -28,9 +29,22 @@ namespace CGUnitTests
         [TestMethod]
         public void ShuffleDeck()
         {
-            var deck = new Deck52Standard();
+            var deck = new Deck();
             deck.ShuffleDeck();
             deck.PrintDeckContents();
+        }
+
+        /// <summary>
+        /// Test number 3. Try and draw a few hands and check that draw works.
+        /// </summary>
+        [TestMethod]
+        public void TestDraw()
+        {
+            var deck = new Deck();
+            deck.ShuffleDeck();
+
+            Hand hand = new Hand(deck);
+            hand.DiscardAndDraw(deck);
         }
     }
 }

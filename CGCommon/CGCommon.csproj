@@ -44,10 +44,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="5HandStud.cs" />
+    <Compile Include="Hand.cs" />
     <Compile Include="Card.cs" />
     <Compile Include="CardEnums\CardEnums.cs" />
-    <Compile Include="Deck52Standard.cs" />
+    <Compile Include="Deck.cs" />
+    <Compile Include="HandEvaluator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
