@@ -1,0 +1,21 @@
+Dated: July, 15th, 2016. Published by author: Mario Migliacio
+Conform to the standardized practice for C# code development: 
+
+0. MOST IMPORTANT. Comment with Intellisense docs on everything. This entails:
+  - Triple "///" slash denotations on Classes, Member variables, Member functions, Constructors, Enumerations.
+  - Anything that can have triple slashes very well SHOULD. Anyone who didn't develop the program should be able to 
+  follow the thought process of how anything internal to the functionality of the program was designed and understand
+  the inner workings.
+
+1. Follow inline access modifier consistancy. This entails:
+  - A class begins with private member fields.
+  - Second in order are Public Properties, Public member methods, and public Constructors.
+  - Third in order are Private member functions, or anything else that should be protected or private in access.
+
+2. If a unit test can be developed for any of the inner workings of a class, they SHOULD be in the Unit test Project solution.
+
+3. If a simple for loop, or logical if statement can be done in one liner style, use Curly Braces ANYWAY. Stay Consistent.
+
+4. Use consistent spacing format. (if you sometimes declare a for loop as: for ( .. ), don't switch it up with for(..). )
+
+5. Space reserved for future rule practice.
