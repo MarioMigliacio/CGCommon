@@ -1,0 +1,11 @@
+C:\Users\Mario\Documents\Visual Studio 2015\Projects\CGCommon\Poker5HandStudApp\bin\Debug\Poker5HandStudApp.exe.config
+C:\Users\Mario\Documents\Visual Studio 2015\Projects\CGCommon\Poker5HandStudApp\bin\Debug\Poker5HandStudApp.exe
+C:\Users\Mario\Documents\Visual Studio 2015\Projects\CGCommon\Poker5HandStudApp\bin\Debug\Poker5HandStudApp.pdb
+C:\Users\Mario\Documents\Visual Studio 2015\Projects\CGCommon\Poker5HandStudApp\bin\Debug\CGCommon.dll
+C:\Users\Mario\Documents\Visual Studio 2015\Projects\CGCommon\Poker5HandStudApp\bin\Debug\CGCommon.pdb
+C:\Users\Mario\Documents\Visual Studio 2015\Projects\CGCommon\Poker5HandStudApp\obj\Debug\Poker5HandStudApp.csprojResolveAssemblyReference.cache
+C:\Users\Mario\Documents\Visual Studio 2015\Projects\CGCommon\Poker5HandStudApp\obj\Debug\Poker5HandStudApp.Form.resources
+C:\Users\Mario\Documents\Visual Studio 2015\Projects\CGCommon\Poker5HandStudApp\obj\Debug\Poker5HandStudApp.Properties.Resources.resources
+C:\Users\Mario\Documents\Visual Studio 2015\Projects\CGCommon\Poker5HandStudApp\obj\Debug\Poker5HandStudApp.csproj.GenerateResource.Cache
+C:\Users\Mario\Documents\Visual Studio 2015\Projects\CGCommon\Poker5HandStudApp\obj\Debug\Poker5HandStudApp.exe
+C:\Users\Mario\Documents\Visual Studio 2015\Projects\CGCommon\Poker5HandStudApp\obj\Debug\Poker5HandStudApp.pdb

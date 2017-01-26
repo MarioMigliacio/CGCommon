@@ -32,48 +32,59 @@ namespace RandomCSStuff
         public static string EvaluateHand(Hand hand)
         {
             Card[] handToEval = hand.GetHand();
+            string retVal = string.Empty;
 
             if (CheckForRoyalFlush(hand))
             {
-                return "Royal Flush";
+                retVal = "Royal Flush";
             }
 
             else if (CheckForStraightFlush(hand))
             {
-                return "Straight Flush";
+                retVal = "Straight Flush";
             }
 
             else if (CheckForFourKind(hand))
             {
-                return "Four Of A Kind";
+                retVal = "Four Of A Kind";
+            }
+
+            else if (CheckForFullHouse(hand))
+            {
+                retVal = "Full House";
             }
 
             else if (CheckForFlush(hand))
             {
-                return "Flush";
+                retVal = "Flush";
             }
 
             else if (CheckForStraight(hand))
             {
-                return "Straight";
+                retVal =  "Straight";
             }
 
             else if (CheckForThreeKind(hand))
             {
-                return "Three Of A Kind";
+                retVal = "Three Of A Kind";
             }
 
             else if (CheckForTwoPair(hand))
             {
-                return "Two Pair";
+                retVal = "Two Pair";
             }
 
             else if (CheckForPair(hand))
             {
-                return "Pair";
+                retVal = "Pair";
             }
 
-            else return $"High Card: {handToEval[4]}";
+            else
+            {
+                retVal = $"High Card: {handToEval[4]}";
+            }
+
+            return retVal;
         }
 
         /// <summary>
@@ -231,12 +242,37 @@ namespace RandomCSStuff
         }
 
         /// <summary>
+        /// Internal helper method to return the boolean status of whether or not the player has a full house in their hand.
+        /// The logic for a full is the check a very particular event of logic when the hand of cards is already sorted.
+        /// </summary>
+        /// <param name="hand">The players hand being evaluated.</param>
+        /// <returns>True or false if the player has a full house in their hand. _value = 7</returns>
+        private static bool CheckForFullHouse(Hand hand)
+        {
+            Card[] handToEval = hand.GetHand();
+            bool check = false;
+
+            if (handToEval[0].Rank == handToEval[1].Rank
+                && handToEval[1].Rank == handToEval[2].Rank
+                && handToEval[3].Rank == handToEval[4].Rank
+                || handToEval[0].Rank == handToEval[1].Rank
+                && handToEval[2].Rank == handToEval[3].Rank
+                && handToEval[3].Rank == handToEval[4].Rank)
+            {
+                _value = 7;
+                check = true;
+            }
+
+            return check;
+        }
+
+        /// <summary>
         /// Internal helper method to return the boolean status of whether or not the player has a straight flush in their hand.
         /// The logic to check for a straight flush is to simply use what is in place for the Straight, and Flush logic at the 
         /// same time.
         /// </summary>
         /// <param name="hand">The players hand being evaluated.</param>
-        /// <returns>True or false if the player has a straight flush in their hand. _value = 7 if true.</returns>
+        /// <returns>True or false if the player has a straight flush in their hand. _value = 8 if true.</returns>
         private static bool CheckForStraightFlush(Hand hand)
         {
             if (CheckForStraight(hand) && CheckForFlush(hand))
@@ -250,12 +286,12 @@ namespace RandomCSStuff
 
         /// <summary>
         /// Internal helper method to return the boolean status of whether or not the player has a royal flush in their hand.
-        /// First we need to ensure the player has a flush, after that we must check if the have a straight AND the straight
+        /// First we need to ensure the player has a flush, after that we must check if they have a straight AND the straight
         /// starts at a 10 card. This is easy since the hand is sorted, just look to see hand[0] is 10, and both a straight 
         /// and flush are present.
         /// </summary>
         /// <param name="hand">The players hand being evaluated.</param>
-        /// <returns>True or false if the player has a royal flush in their hand. _value = 8 if true.</returns>
+        /// <returns>True or false if the player has a royal flush in their hand. _value = 9 if true.</returns>
         private static bool CheckForRoyalFlush(Hand hand)
         {
             Card[] handToEval = hand.GetHand();

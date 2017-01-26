@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CGCommon", "CGCommon\CGComm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CGUnitTests", "CGUnitTests\CGUnitTests.csproj", "{537C12DF-98DF-4EDC-A739-8047D61470DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poker5HandStudApp", "Poker5HandStudApp\Poker5HandStudApp.csproj", "{62D480DB-3FB1-4913-A9D8-9629A181993C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{537C12DF-98DF-4EDC-A739-8047D61470DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{537C12DF-98DF-4EDC-A739-8047D61470DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{537C12DF-98DF-4EDC-A739-8047D61470DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62D480DB-3FB1-4913-A9D8-9629A181993C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62D480DB-3FB1-4913-A9D8-9629A181993C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62D480DB-3FB1-4913-A9D8-9629A181993C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62D480DB-3FB1-4913-A9D8-9629A181993C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

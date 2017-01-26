@@ -42,7 +42,6 @@ namespace CGCommon
         public Card DrawCard()
         {
             Card drawCard = null;
-            int index = 0;
 
             for (int i = 0; i < 52; i++)
             {
